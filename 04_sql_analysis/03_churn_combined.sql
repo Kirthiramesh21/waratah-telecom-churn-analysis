@@ -60,64 +60,11 @@ churn AS (
       AND s.deactivation_date IS NOT NULL
 )
 
-SELECT *
+SELECT
+    substr(churn_date, 1, 7) AS churn_month,
+    plan_type,
+    COUNT(*) AS churned_services
 FROM churn
-ORDER BY churn_date;
+GROUP BY churn_month, plan_type
+ORDER BY churn_month, plan_type;
 
--- Result (40-customer seed): 19 churned services — 12 postpaid, 7 prepaid.
---
--- By quarter:
---   2024-Q2   Postpaid 1
---   2024-Q3   Postpaid 4
---   2024-Q4   Postpaid 2   Prepaid 1
---   2025-Q1   Postpaid 3   Prepaid 4
---   2025-Q2   Postpaid 2   Prepaid 2
-
--- ===========================================================================
--- DECISION D4 — how a prepaid churn event is dated
--- ===========================================================================
--- The 60-day rule tells you a customer HAS left, but not WHEN. Two candidate
--- dates exist, and the choice materially changes the churn trend.
---
---   Option A (CHOSEN): date the churn at the LAST ACTIVITY date — the day
---       the customer actually went quiet.
---   Option B (rejected): date it at last activity + 60 days — the day the
---       rule was satisfied and the loss was confirmed.
---
--- Rationale for A. Postpaid churn is dated on the day the customer actually
--- left. Dating prepaid churn 60 days later would mean the two columns do not
--- mean the same thing, and every prepaid-vs-postpaid trend comparison would
--- be misaligned by two months — smearing seasonality and making prepaid churn
--- look like it started later than it did. Under Option B this dataset shows
--- no prepaid churn at all before February 2025, which is an artefact of the
--- dating rule, not a fact about the business. Decision D2 requires the two
--- product types to be reported side by side, and that is only meaningful if
--- both are measured on the same clock.
---
--- Cost accepted. Because a churn cannot be confirmed until 60 days have
--- elapsed, the most recent two months are structurally incomplete — a
--- customer who went quiet last month may yet return. Those months must be
--- labelled PROVISIONAL wherever prepaid churn is reported (BRD constraint C1).
---
--- Note on this dataset: no prepaid service currently sits in the 30-59 day
--- unresolved window, so the blind spot is empty here. That is a property of
--- this data extract, not of the method. The caveat still applies.
---
--- Option B is the more natural choice for a finance-driven base
--- reconciliation, where what matters is when a service was removed from the
--- billed base rather than when the customer stopped caring. If this analysis
--- were feeding a revenue forecast rather than a retention programme, the
--- decision could reasonably go the other way.
--- ===========================================================================
-
--- ---------------------------------------------------------------------------
--- CONTROL CHECKS
--- ---------------------------------------------------------------------------
--- 1. Total churned must equal prepaid churned + postpaid churned: 7 + 12 = 19.
--- 2. No service may appear twice — the two branches are mutually exclusive
---    by plan_type:
---      SELECT service_id, COUNT(*) FROM ( ...churn... )
---      GROUP BY service_id HAVING COUNT(*) > 1;   -- expect zero rows
--- 3. Churned services must not exceed the base: 19 of 51 total services.
--- 4. Every churn_date must fall inside the data window (2024-01-01 to
---    2025-06-30).
