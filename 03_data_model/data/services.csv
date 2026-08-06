@@ -1,0 +1,52 @@
+service_id,customer_id,plan_id,msisdn,activation_date,deactivation_date,service_status,device_type,is_byo,port_in_flag
+1,1,6,0410000137,2022-08-02,,Active,Handset - Outright,0,0
+2,2,10,0410000274,2024-06-12,,Active,Mobile Broadband,0,0
+3,3,2,0410000411,2022-04-21,,Active,Handset - Subsidised,1,0
+4,4,6,0410000548,2022-07-05,,Active,BYO Device,1,0
+5,4,8,0410000685,2021-09-21,2024-12-13,Deactivated,Mobile Broadband,1,0
+6,5,4,0410000822,2023-09-14,,Active,BYO Device,0,0
+7,6,7,0410000959,2022-04-30,,Active,Mobile Broadband,0,0
+8,6,8,0410001096,2023-11-24,2025-03-26,Deactivated,Handset - Subsidised,0,0
+9,7,6,0410001233,2024-04-09,,Active,BYO Device,1,0
+10,8,1,0410001370,2024-10-26,,Active,Handset - Outright,1,0
+11,9,6,0410001507,2022-10-20,,Active,Mobile Broadband,0,1
+12,10,3,0410001644,2021-10-02,,Active,Handset - Outright,0,0
+13,11,5,0410001781,2022-12-13,,Active,Handset - Subsidised,0,0
+14,11,2,0410001918,2022-12-13,,Active,Handset - Outright,1,0
+15,12,8,0410002055,2023-11-29,,Active,BYO Device,0,1
+16,13,2,0410002192,2023-04-26,,Active,Mobile Broadband,0,1
+17,14,8,0410002329,2023-08-11,2024-08-02,Deactivated,Handset - Outright,1,0
+18,15,1,0410002466,2023-09-10,,Active,BYO Device,0,0
+19,16,6,0410002603,2025-01-02,,Active,Mobile Broadband,1,0
+20,17,9,0410002740,2022-03-14,2025-04-08,Deactivated,BYO Device,0,1
+21,18,9,0410002877,2023-01-28,2024-06-25,Deactivated,Handset - Subsidised,0,0
+22,19,6,0410003014,2022-09-18,,Active,Mobile Broadband,1,0
+23,20,9,0410003151,2025-01-08,,Active,Handset - Subsidised,1,0
+24,21,2,0410003288,2022-03-23,,Active,BYO Device,0,1
+25,22,3,0410003425,2024-10-08,,Active,Handset - Subsidised,0,0
+26,23,7,0410003562,2024-05-30,2025-04-06,Deactivated,Handset - Subsidised,0,0
+27,24,8,0410003699,2024-07-10,,Active,Mobile Broadband,1,0
+28,25,3,0410003836,2023-01-01,,Active,Mobile Broadband,0,0
+29,26,8,0410003973,2022-11-02,,Active,Handset - Subsidised,0,1
+30,27,8,0410004110,2022-03-09,,Active,BYO Device,0,1
+31,27,9,0410004247,2022-10-02,2024-09-28,Deactivated,Handset - Outright,0,1
+32,27,9,0410004384,2022-11-04,,Active,Handset - Subsidised,0,0
+33,28,9,0410004521,2024-01-06,,Active,BYO Device,0,0
+34,28,2,0410004658,2024-01-06,,Active,Handset - Subsidised,1,1
+35,29,1,0410004795,2023-07-01,,Active,Handset - Subsidised,0,0
+36,29,7,0410004932,2022-01-22,,Active,Handset - Subsidised,1,0
+37,30,4,0410005069,2023-03-30,,Active,BYO Device,1,0
+38,31,6,0410005206,2022-11-29,,Active,Handset - Subsidised,0,0
+39,32,8,0410005343,2023-09-08,,Active,Mobile Broadband,0,1
+40,33,2,0410005480,2024-06-10,,Active,BYO Device,0,0
+41,34,3,0410005617,2022-08-21,,Active,BYO Device,0,0
+42,34,9,0410005754,2023-08-13,,Active,Mobile Broadband,0,0
+43,34,9,0410005891,2022-10-04,2025-01-15,Deactivated,BYO Device,1,1
+44,35,8,0410006028,2023-07-06,2024-09-06,Deactivated,Handset - Subsidised,1,0
+45,35,7,0410006165,2022-02-10,2024-09-05,Deactivated,Mobile Broadband,0,0
+46,36,3,0410006302,2023-07-14,,Active,BYO Device,0,0
+47,37,7,0410006439,2023-03-09,,Active,Handset - Subsidised,0,0
+48,37,6,0410006576,2022-10-24,2024-10-23,Deactivated,BYO Device,0,0
+49,38,6,0410006713,2022-02-07,,Active,Handset - Subsidised,1,0
+50,39,2,0410006850,2025-02-22,,Active,Mobile Broadband,1,1
+51,40,7,0410006987,2023-04-15,2025-01-28,Deactivated,Mobile Broadband,1,0

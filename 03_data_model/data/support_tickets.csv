@@ -1,0 +1,41 @@
+ticket_id,service_id,customer_id,created_date,resolved_date,issue_category,priority,contact_channel,resolution_hours,csat_score
+1,5,4,2024-08-10,2024-08-12,Billing Dispute,Medium,Email,64.0,5
+2,5,4,2024-01-24,2024-01-24,Billing Dispute,Low,Email,14.5,3
+3,6,5,2024-10-10,2024-10-11,Data Speed,High,Social,25.3,1
+4,6,5,2024-03-15,,Device/SIM Fault,Low,Chat,38.0,1
+5,6,5,2024-01-14,2024-01-15,Device/SIM Fault,Medium,Chat,37.1,3
+6,8,6,2024-08-17,2024-08-17,Billing Dispute,Low,Chat,7.1,5
+7,8,6,2024-10-07,2024-10-09,Credit/Refund,Low,Email,53.6,2
+8,10,8,2024-11-07,2024-11-08,Plan Change,Medium,Retail Store,25.6,3
+9,10,8,2024-10-28,2024-10-29,Porting Request,Medium,Retail Store,36.3,3
+10,12,10,2025-01-14,2025-01-15,Billing Dispute,Medium,Chat,30.0,4
+11,12,10,2024-01-17,2024-01-17,Plan Change,Low,Chat,16.4,3
+12,16,13,2024-06-16,2024-06-17,Data Speed,Low,Chat,43.1,2
+13,16,13,2024-10-26,2024-10-27,Data Speed,Medium,Social,30.0,3
+14,16,13,2024-04-16,2024-04-17,Plan Change,Low,Phone,28.3,1
+15,17,14,2024-08-02,2024-08-03,Data Speed,High,Email,36.5,5
+16,20,17,2024-01-11,2024-01-11,Billing Dispute,Medium,Retail Store,19.2,2
+17,20,17,2024-05-09,2024-05-09,Porting Request,Low,Retail Store,5.7,4
+18,21,18,2024-05-03,,Billing Dispute,High,Retail Store,9.2,1
+19,21,18,2024-03-07,2024-03-07,Device/SIM Fault,High,Social,18.2,4
+20,21,18,2024-02-27,,Porting Request,High,Social,17.1,4
+21,24,21,2024-07-12,2024-07-12,Device/SIM Fault,Low,Chat,5.6,4
+22,25,22,2025-03-02,2025-03-02,Device/SIM Fault,Medium,Chat,23.2,1
+23,28,25,2025-01-31,2025-02-01,Network Coverage,Medium,Email,35.0,3
+24,30,27,2024-05-06,2024-05-06,Porting Request,Medium,Email,6.1,1
+25,31,27,2024-07-31,2024-07-31,Porting Request,Low,Chat,0.6,4
+26,31,27,2024-05-10,2024-05-11,Data Speed,Medium,Social,32.5,3
+27,31,27,2024-01-04,2024-01-05,Device/SIM Fault,Medium,Phone,38.2,5
+28,32,27,2024-06-29,2024-06-30,Plan Change,Low,Phone,28.1,4
+29,34,28,2024-06-26,2024-06-26,Device/SIM Fault,Low,Phone,9.6,5
+30,35,29,2024-10-10,2024-10-11,Data Speed,Medium,Retail Store,36.9,4
+31,36,29,2024-09-07,2024-09-09,Billing Dispute,Medium,Email,64.0,4
+32,36,29,2025-03-22,2025-03-23,Porting Request,Medium,Phone,28.4,3
+33,41,34,2024-07-31,2024-07-31,Plan Change,Medium,Social,20.9,2
+34,42,34,2024-03-31,2024-03-31,Porting Request,Low,Email,6.3,4
+35,43,34,2024-12-09,,Plan Change,High,Email,7.9,3
+36,43,34,2024-12-22,,Billing Dispute,Medium,Chat,25.0,3
+37,43,34,2024-04-23,2024-04-23,Porting Request,Medium,Phone,18.6,5
+38,44,35,2024-04-19,2024-04-19,Device/SIM Fault,Low,Phone,0.6,4
+39,48,37,2024-02-15,2024-02-16,Credit/Refund,Low,Chat,46.7,5
+40,48,37,2024-07-22,2024-07-23,Billing Dispute,Critical,Retail Store,42.0,1

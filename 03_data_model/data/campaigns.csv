@@ -1,0 +1,7 @@
+campaign_id,campaign_name,campaign_type,start_date,end_date,target_segment,offer_type,offer_value_aud,budget_aud
+1,Q1 FY25 Prepaid Winback,Winback,2024-08-01,2024-09-30,Prepaid Lapsed,Bonus Credit,15.0,120000.0
+2,Loyalty Data Boost,Retention,2024-10-01,2024-12-31,Postpaid Tenure 12m+,Data Bonus,8.0,95000.0
+3,High Value Save Desk,Retention,2024-11-01,2025-06-30,Top Value Decile,Bill Credit,45.0,210000.0
+4,Prepaid Auto-Recharge Push,Retention,2025-01-15,2025-04-30,Prepaid Manual Payers,Bonus Credit,10.0,70000.0
+5,SMB Contract Renewal Drive,Upsell,2025-02-01,2025-06-30,SMB Postpaid,Plan Upgrade,20.0,140000.0
+6,Network Complaint Save Offer,Retention,2025-03-01,2025-06-30,Complaint Raisers,Bill Credit,25.0,60000.0

@@ -1,0 +1,251 @@
+recharge_id,service_id,recharge_date,amount_aud,recharge_channel,recharge_type
+1,3,2024-01-01,20.0,Third Party,Manual
+2,3,2024-02-07,20.0,Auto-Recharge,Auto
+3,3,2024-03-14,50.0,App,Manual
+4,3,2024-04-13,20.0,Retail Store,Manual
+5,3,2024-05-13,20.0,Auto-Recharge,Manual
+6,3,2024-06-10,20.0,Third Party,Manual
+7,3,2024-07-10,20.0,Third Party,Manual
+8,3,2024-08-10,20.0,Website,Manual
+9,3,2024-09-17,20.0,Retail Store,Manual
+10,3,2024-10-23,10.0,Website,Manual
+11,3,2024-11-21,10.0,Website,Manual
+12,3,2024-12-26,10.0,Third Party,Auto
+13,3,2025-02-01,20.0,Website,Manual
+14,3,2025-02-27,10.0,Website,Auto
+15,3,2025-04-05,10.0,Website,Manual
+16,3,2025-05-02,20.0,Third Party,Manual
+17,3,2025-06-06,20.0,Auto-Recharge,Manual
+18,6,2024-01-01,40.0,Third Party,Manual
+19,6,2024-02-08,40.0,Third Party,Manual
+20,6,2024-03-09,20.0,Retail Store,Auto
+21,6,2024-04-07,40.0,Website,Manual
+22,6,2024-05-13,40.0,Auto-Recharge,Auto
+23,6,2024-06-13,30.0,Retail Store,Manual
+24,6,2024-07-15,30.0,Third Party,Manual
+25,6,2024-08-15,40.0,Website,Auto
+26,6,2024-09-17,30.0,Retail Store,Manual
+27,6,2024-10-20,20.0,Website,Manual
+28,6,2024-11-26,40.0,Third Party,Manual
+29,6,2025-01-03,30.0,App,Manual
+30,10,2024-10-26,30.0,Third Party,Auto
+31,10,2024-11-21,10.0,Third Party,Auto
+32,10,2024-12-20,40.0,App,Manual
+33,10,2025-01-25,10.0,Retail Store,Manual
+34,10,2025-03-04,30.0,App,Manual
+35,10,2025-04-01,10.0,Website,Manual
+36,12,2024-01-01,50.0,Retail Store,Auto
+37,12,2024-02-05,30.0,Third Party,Auto
+38,12,2024-03-10,30.0,Third Party,Manual
+39,12,2024-04-15,30.0,App,Manual
+40,12,2024-05-18,40.0,Auto-Recharge,Manual
+41,12,2024-06-13,30.0,Retail Store,Manual
+42,12,2024-07-15,20.0,Website,Manual
+43,12,2024-08-10,30.0,Third Party,Manual
+44,12,2024-09-06,30.0,Auto-Recharge,Auto
+45,12,2024-10-04,40.0,Auto-Recharge,Manual
+46,12,2024-11-05,30.0,Third Party,Auto
+47,12,2024-12-06,30.0,Auto-Recharge,Manual
+48,12,2025-01-12,10.0,Retail Store,Manual
+49,12,2025-02-18,30.0,Website,Auto
+50,12,2025-03-21,20.0,App,Auto
+51,12,2025-04-26,30.0,App,Auto
+52,12,2025-05-23,20.0,Third Party,Manual
+53,12,2025-06-18,20.0,Auto-Recharge,Auto
+54,13,2024-01-01,20.0,Website,Auto
+55,13,2024-02-04,50.0,Third Party,Manual
+56,13,2024-03-11,40.0,Third Party,Manual
+57,13,2024-04-06,50.0,Retail Store,Auto
+58,13,2024-05-13,50.0,Website,Auto
+59,13,2024-06-09,50.0,Third Party,Manual
+60,13,2024-07-10,50.0,Retail Store,Manual
+61,13,2024-08-12,50.0,Website,Auto
+62,13,2024-09-08,50.0,App,Auto
+63,13,2024-10-10,50.0,App,Manual
+64,13,2024-11-06,50.0,Retail Store,Manual
+65,13,2024-12-03,10.0,Third Party,Manual
+66,13,2024-12-29,30.0,Third Party,Manual
+67,13,2025-01-26,20.0,Website,Manual
+68,13,2025-03-05,40.0,Retail Store,Auto
+69,14,2024-01-01,20.0,Auto-Recharge,Manual
+70,14,2024-01-31,20.0,Third Party,Manual
+71,14,2024-03-02,20.0,Auto-Recharge,Manual
+72,14,2024-04-06,20.0,Website,Manual
+73,14,2024-05-10,20.0,Website,Manual
+74,14,2024-06-09,10.0,Auto-Recharge,Manual
+75,14,2024-07-07,20.0,Website,Manual
+76,14,2024-08-14,20.0,Third Party,Manual
+77,14,2024-09-15,20.0,Auto-Recharge,Manual
+78,14,2024-10-23,50.0,App,Auto
+79,14,2024-11-21,20.0,Third Party,Auto
+80,14,2024-12-27,20.0,Retail Store,Manual
+81,14,2025-01-28,10.0,Website,Manual
+82,14,2025-03-03,20.0,Website,Manual
+83,14,2025-04-04,20.0,Third Party,Auto
+84,14,2025-04-30,10.0,App,Auto
+85,14,2025-06-06,10.0,Auto-Recharge,Manual
+86,16,2024-01-01,20.0,Website,Auto
+87,16,2024-02-07,10.0,Auto-Recharge,Manual
+88,16,2024-03-12,20.0,Retail Store,Auto
+89,16,2024-04-09,20.0,App,Manual
+90,16,2024-05-05,20.0,Third Party,Auto
+91,16,2024-06-11,10.0,Third Party,Manual
+92,16,2024-07-14,20.0,Retail Store,Manual
+93,16,2024-08-18,10.0,Third Party,Auto
+94,16,2024-09-13,20.0,Auto-Recharge,Manual
+95,16,2024-10-11,10.0,Auto-Recharge,Auto
+96,16,2024-11-09,20.0,Retail Store,Manual
+97,16,2024-12-14,20.0,App,Auto
+98,18,2024-01-01,10.0,Retail Store,Manual
+99,18,2024-01-29,10.0,Auto-Recharge,Manual
+100,18,2024-02-26,10.0,Third Party,Manual
+101,18,2024-03-26,10.0,Auto-Recharge,Manual
+102,18,2024-05-02,10.0,App,Manual
+103,18,2024-06-06,10.0,Third Party,Auto
+104,18,2024-07-11,10.0,Third Party,Auto
+105,18,2024-08-15,10.0,Retail Store,Manual
+106,18,2024-09-13,10.0,App,Manual
+107,18,2024-10-19,10.0,Auto-Recharge,Auto
+108,18,2024-11-17,10.0,Retail Store,Manual
+109,18,2024-12-24,10.0,Auto-Recharge,Manual
+110,18,2025-01-25,10.0,Third Party,Manual
+111,18,2025-02-27,50.0,Website,Auto
+112,18,2025-03-26,10.0,Retail Store,Auto
+113,18,2025-04-22,10.0,Auto-Recharge,Auto
+114,18,2025-05-19,10.0,App,Manual
+115,18,2025-06-23,10.0,Website,Manual
+116,24,2024-01-01,20.0,App,Manual
+117,24,2024-02-02,20.0,Retail Store,Auto
+118,24,2024-03-10,30.0,Third Party,Auto
+119,24,2024-04-07,20.0,Website,Auto
+120,24,2024-05-13,10.0,Third Party,Manual
+121,24,2024-06-16,20.0,Retail Store,Auto
+122,24,2024-07-23,20.0,Retail Store,Auto
+123,24,2024-08-28,20.0,App,Manual
+124,24,2024-09-28,20.0,Retail Store,Manual
+125,24,2024-10-26,20.0,Retail Store,Manual
+126,24,2024-11-23,10.0,Website,Manual
+127,24,2024-12-29,20.0,Website,Manual
+128,24,2025-01-29,40.0,Retail Store,Manual
+129,25,2024-10-08,30.0,App,Auto
+130,25,2024-12-13,20.0,Third Party,Auto
+131,25,2025-01-17,20.0,Website,Manual
+132,25,2025-02-18,30.0,App,Manual
+133,25,2025-03-27,20.0,App,Auto
+134,25,2025-05-01,30.0,Auto-Recharge,Manual
+135,25,2025-06-08,30.0,Third Party,Manual
+136,28,2024-01-01,30.0,App,Manual
+137,28,2024-02-01,30.0,App,Auto
+138,28,2024-03-10,30.0,Third Party,Auto
+139,28,2024-04-12,40.0,Auto-Recharge,Manual
+140,28,2024-05-17,20.0,Retail Store,Auto
+141,28,2024-06-20,30.0,Auto-Recharge,Manual
+142,28,2024-07-19,30.0,Website,Manual
+143,28,2024-08-26,30.0,Third Party,Manual
+144,28,2024-09-27,20.0,Website,Auto
+145,28,2024-11-02,30.0,Third Party,Manual
+146,28,2024-12-03,20.0,Third Party,Auto
+147,28,2024-12-30,20.0,Auto-Recharge,Manual
+148,28,2025-01-28,20.0,Website,Manual
+149,28,2025-02-27,40.0,Auto-Recharge,Manual
+150,28,2025-03-25,30.0,Website,Auto
+151,28,2025-05-02,30.0,Website,Auto
+152,28,2025-06-01,10.0,Website,Manual
+153,34,2024-01-06,20.0,Retail Store,Auto
+154,34,2024-02-01,20.0,Third Party,Manual
+155,34,2024-03-01,10.0,App,Auto
+156,34,2024-04-05,20.0,Third Party,Manual
+157,34,2024-05-03,20.0,Auto-Recharge,Manual
+158,34,2024-07-06,20.0,Retail Store,Manual
+159,34,2024-08-12,30.0,App,Auto
+160,34,2024-09-07,20.0,App,Auto
+161,34,2024-10-07,10.0,Website,Manual
+162,34,2024-11-04,10.0,Third Party,Manual
+163,34,2024-12-03,10.0,Auto-Recharge,Manual
+164,34,2024-12-30,10.0,Retail Store,Manual
+165,34,2025-01-25,20.0,App,Manual
+166,34,2025-03-02,10.0,Retail Store,Manual
+167,34,2025-04-06,20.0,Auto-Recharge,Manual
+168,34,2025-05-08,10.0,App,Manual
+169,34,2025-06-14,30.0,Third Party,Manual
+170,35,2024-01-01,10.0,App,Manual
+171,35,2024-01-28,10.0,Third Party,Manual
+172,35,2024-03-01,20.0,Website,Auto
+173,35,2024-03-29,10.0,Auto-Recharge,Manual
+174,35,2024-04-26,10.0,Retail Store,Auto
+175,35,2024-05-28,10.0,Auto-Recharge,Auto
+176,35,2024-07-04,10.0,Website,Manual
+177,35,2024-08-06,10.0,Website,Manual
+178,35,2024-09-10,10.0,Retail Store,Auto
+179,35,2024-10-07,10.0,Auto-Recharge,Manual
+180,35,2024-11-08,10.0,Auto-Recharge,Auto
+181,35,2024-12-10,10.0,Auto-Recharge,Auto
+182,35,2025-01-10,10.0,Retail Store,Manual
+183,35,2025-02-08,10.0,Third Party,Auto
+184,35,2025-03-08,10.0,Auto-Recharge,Auto
+185,35,2025-04-08,10.0,Website,Manual
+186,35,2025-05-14,20.0,Third Party,Manual
+187,35,2025-06-10,10.0,Website,Manual
+188,37,2024-01-01,40.0,Retail Store,Manual
+189,37,2024-02-02,40.0,App,Auto
+190,37,2024-03-07,40.0,Third Party,Manual
+191,37,2024-04-10,50.0,App,Manual
+192,37,2024-05-07,40.0,App,Manual
+193,37,2024-06-06,40.0,Auto-Recharge,Manual
+194,37,2024-07-11,40.0,Website,Manual
+195,37,2024-08-06,30.0,Website,Manual
+196,37,2024-09-03,40.0,Website,Auto
+197,37,2024-09-30,40.0,App,Auto
+198,37,2024-11-07,40.0,Website,Auto
+199,37,2024-12-15,40.0,Auto-Recharge,Auto
+200,37,2025-01-14,30.0,App,Manual
+201,37,2025-02-21,40.0,Third Party,Manual
+202,37,2025-03-21,30.0,Website,Manual
+203,37,2025-04-20,20.0,Third Party,Manual
+204,37,2025-05-25,40.0,App,Manual
+205,40,2024-06-10,10.0,Third Party,Auto
+206,40,2024-08-13,20.0,App,Manual
+207,40,2024-09-08,20.0,App,Manual
+208,40,2024-10-13,10.0,Website,Auto
+209,40,2024-11-15,40.0,Retail Store,Manual
+210,40,2024-12-11,10.0,Third Party,Manual
+211,40,2025-01-11,40.0,App,Manual
+212,40,2025-02-10,10.0,App,Manual
+213,40,2025-03-17,20.0,Website,Auto
+214,40,2025-04-24,10.0,Website,Auto
+215,40,2025-06-01,20.0,Website,Auto
+216,41,2024-01-01,30.0,App,Auto
+217,41,2024-01-27,30.0,Website,Manual
+218,41,2024-02-25,30.0,Website,Manual
+219,41,2024-04-01,50.0,Retail Store,Manual
+220,41,2024-04-29,20.0,Website,Manual
+221,41,2024-06-05,30.0,Auto-Recharge,Auto
+222,41,2024-07-08,30.0,Third Party,Manual
+223,41,2024-08-09,20.0,Auto-Recharge,Manual
+224,41,2024-09-11,30.0,Third Party,Manual
+225,41,2024-10-07,30.0,Third Party,Manual
+226,41,2024-11-12,30.0,App,Manual
+227,41,2024-12-14,30.0,Retail Store,Manual
+228,41,2025-01-15,10.0,Retail Store,Manual
+229,41,2025-02-16,20.0,Website,Manual
+230,41,2025-03-21,20.0,Retail Store,Manual
+231,46,2024-01-01,30.0,Auto-Recharge,Manual
+232,46,2024-02-05,30.0,Third Party,Manual
+233,46,2024-03-05,30.0,Website,Manual
+234,46,2024-04-04,30.0,Website,Manual
+235,46,2024-05-05,20.0,App,Auto
+236,46,2024-06-08,30.0,Auto-Recharge,Manual
+237,46,2024-07-09,30.0,Auto-Recharge,Manual
+238,46,2024-08-11,30.0,Website,Manual
+239,46,2024-09-10,30.0,App,Auto
+240,46,2024-10-14,30.0,Retail Store,Manual
+241,46,2024-11-10,30.0,Third Party,Auto
+242,46,2024-12-09,20.0,Retail Store,Auto
+243,46,2025-01-13,50.0,App,Manual
+244,46,2025-02-12,40.0,Third Party,Manual
+245,46,2025-03-10,30.0,Website,Manual
+246,46,2025-04-08,30.0,Auto-Recharge,Auto
+247,46,2025-05-13,40.0,Auto-Recharge,Manual
+248,46,2025-06-09,20.0,Auto-Recharge,Auto
+249,50,2025-02-22,20.0,App,Manual
+250,50,2025-03-29,20.0,Website,Manual

@@ -1,0 +1,41 @@
+customer_id,first_name,last_name,date_of_birth,state,city,postcode,customer_segment,acquisition_channel,acquisition_date,credit_risk_band
+1,Aisha,Singh,1974-03-24,VIC,Melbourne,3104,Consumer,Referral,2021-09-30,Low Risk
+2,Liam,Robinson,1990-04-28,QLD,Gold Coast,4410,SMB,Online,2024-06-12,Low Risk
+3,Priya,Baker,1976-03-19,VIC,Ballarat,3271,Consumer,Online,2020-04-17,Low Risk
+4,Noah,Okafor,1966-12-25,NSW,Newcastle,2308,SMB,Referral,2021-09-21,Medium Risk
+5,Chloe,Grant,1997-05-21,QLD,Gold Coast,4434,SMB,Telesales,2022-11-16,Low Risk
+6,Jack,Smith,1980-10-05,VIC,Bendigo,3067,SMB,Retail Store,2019-11-27,Low Risk
+7,Mia,Martin,1962-11-13,NSW,Sydney,2382,Consumer,Telesales,2024-04-09,Medium Risk
+8,Ethan,Ryan,1978-02-09,QLD,Gold Coast,4201,Consumer,Referral,2024-10-26,Low Risk
+9,Ruby,Campbell,1995-06-25,NSW,Sydney,2147,Consumer,Retail Store,2022-10-20,Medium Risk
+10,Oliver,Reid,1990-03-15,NSW,Newcastle,2765,Consumer,Referral,2020-07-01,Low Risk
+11,Sienna,OBrien,1970-03-24,QLD,Cairns,4559,Consumer,Partner Reseller,2022-12-13,Low Risk
+12,Hugo,Brown,1988-09-07,VIC,Ballarat,3435,Consumer,Online,2019-06-20,Medium Risk
+13,Isla,Walker,1994-06-13,NSW,Newcastle,2600,Consumer,Online,2020-09-28,Low Risk
+14,Lachlan,Anderson,1961-07-28,VIC,Ballarat,3463,Consumer,Referral,2020-12-13,Medium Risk
+15,Zara,Hughes,1968-06-23,VIC,Melbourne,3181,Consumer,Telesales,2021-04-05,Low Risk
+16,Cooper,Hayes,1982-07-09,VIC,Melbourne,3392,Consumer,Partner Reseller,2025-01-02,Low Risk
+17,Maya,Novak,2001-03-20,QLD,Brisbane,4008,Consumer,Retail Store,2020-06-25,Low Risk
+18,Xavier,Taylor,1982-12-14,VIC,Ballarat,3302,Consumer,Retail Store,2021-04-06,Low Risk
+19,Amelia,Chen,1975-06-09,QLD,Brisbane,4051,Consumer,Referral,2022-08-06,Low Risk
+20,Finn,Wright,1985-02-12,QLD,Gold Coast,4226,Consumer,Retail Store,2025-01-08,Medium Risk
+21,Layla,Silva,1990-03-18,NSW,Parramatta,2225,Consumer,Retail Store,2019-05-07,Medium Risk
+22,Angus,Ellis,2001-05-07,NSW,Newcastle,2153,Consumer,Retail Store,2024-10-08,Low Risk
+23,Grace,Nguyen,1971-06-18,NSW,Newcastle,2568,Consumer,Partner Reseller,2024-05-30,Low Risk
+24,Riley,Lee,1999-01-25,NSW,Sydney,2554,Consumer,Online,2024-07-10,Medium Risk
+25,Anika,Kelly,1980-08-15,NSW,Newcastle,2553,SMB,Telesales,2023-01-01,Low Risk
+26,Declan,Ali,1960-04-21,NSW,Wollongong,2503,Consumer,Online,2019-10-18,Low Risk
+27,Freya,Kaur,1972-12-20,VIC,Ballarat,3277,SMB,Online,2022-03-09,Low Risk
+28,Tomas,Sharma,1972-04-22,VIC,Ballarat,3324,Consumer,Telesales,2024-01-06,Low Risk
+29,Harper,Patel,1969-11-09,VIC,Bendigo,3535,Consumer,Partner Reseller,2021-04-24,Low Risk
+30,Nikhil,Thompson,1966-10-25,QLD,Gold Coast,4171,Consumer,Referral,2021-01-20,Low Risk
+31,Willow,Murphy,1971-09-22,QLD,Cairns,4798,Consumer,Telesales,2019-05-15,Medium Risk
+32,Marcus,Mitchell,1973-05-15,QLD,Gold Coast,4418,SMB,Telesales,2020-12-18,Medium Risk
+33,Georgia,Foster,1989-08-04,QLD,Brisbane,4737,Consumer,Retail Store,2024-06-10,Low Risk
+34,Elias,Dixon,1960-03-21,NSW,Sydney,2488,SMB,Partner Reseller,2020-04-22,Medium Risk
+35,Tahlia,Wilson,1996-09-16,NSW,Parramatta,2174,SMB,Referral,2022-02-10,Low Risk
+36,Rohan,Harris,1968-09-19,NSW,Sydney,2500,Consumer,Retail Store,2022-02-21,Medium Risk
+37,Evie,Clarke,2004-10-04,NSW,Parramatta,2402,Consumer,Online,2021-01-21,Low Risk
+38,Blake,Rossi,1964-06-01,NSW,Sydney,2599,Consumer,Retail Store,2022-02-07,Low Risk
+39,Sofia,Barnes,1985-02-05,NSW,Newcastle,2331,Consumer,Referral,2025-02-22,Medium Risk
+40,Callum,Webb,1977-11-21,QLD,Brisbane,4455,Consumer,Telesales,2023-04-15,Low Risk
