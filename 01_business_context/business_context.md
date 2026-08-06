@@ -110,7 +110,7 @@ SO3 is deliberately phrased as "unknown — to be measured." Declaring a baselin
 
 ## 6. Locked analytical decisions
 
-These three decisions were made before analysis began, and are held fixed for the remainder of the project. Documenting a decision *and its rationale* at the point it is made is what separates an analyst from a report generator.
+D1–D3 were made before analysis began and are held fixed for the remainder of the project. D4 was made during Phase 4, when building the combined churn list exposed a question the earlier decisions had not settled — which is normal, and the reason this section is a living log rather than a one-off. Documenting a decision *and its rationale* at the point it is made is what separates an analyst from a report generator.
 
 ### D1 — Churn definition
 
@@ -129,37 +129,4 @@ These three decisions were made before analysis began, and are held fixed for th
 
 **Rationale.** Postpaid is the revenue engine (higher ARPU, contracted); prepaid is where the churn spike is concentrated (3.1% vs. blended 2.6%). Analysing only postpaid would miss the volume risk; analysing only prepaid would miss the revenue risk. Because the two have structurally different churn mechanics (inferred vs. contractual) and different revenue tables, a blended-only view would average away the very signal the project exists to find.
 
-**Cost accepted:** roughly double the analytical work, and every metric needs a stated blending rule.
-
-### D3 — North-star metric
-
-> **Churn reduction is the north star. ARPU is a guardrail:** no retention initiative may push blended ARPU below **AUD 39.00**.
-
-**Rationale.** With net adds negative and CAC up 18%, base erosion compounds — every month of elevated churn raises the acquisition bill required just to stand still. Retention is the cheaper lever. ARPU recovery then follows from targeted upsell into a stabilised base, rather than from defending price on a shrinking one.
-
-**Why a guardrail and not a second north-star.** Two north-stars is no north-star; when they conflict, the team stalls. The guardrail resolves the conflict in advance: churn is optimised, ARPU is constrained. The AUD 39.00 floor sits AUD 1.10 below the current AUD 40.10, deliberately allowing limited room for save offers to discount without letting blanket discounting destroy the P&L.
-
-**Failure mode this prevents:** the classic retention death spiral — churn is "fixed" by discounting everyone, churn falls, and revenue falls faster.
-
----
-
-## 7. Scope boundaries
-
-**In scope:** consumer and SMB mobile services across NSW/VIC/QLD; prepaid and postpaid; recharge, invoice, usage, support and campaign data from Jan 2024 to Jun 2025.
-
-**Out of scope:** fixed broadband and other non-mobile products; network engineering and coverage remediation (no owned network); wholesale/carrier partner channels; customers outside NSW/VIC/QLD; anything requiring personally identifying data beyond what the analytical schema holds.
-
-**Key assumptions:** the 18-month window is representative of current market conditions; recharge and invoice records are complete and authoritative for revenue; a service, not a customer, is the correct unit of churn.
-
----
-
-## 8. Phase 1 deliverables
-
-- [x] Company profile and market context
-- [x] Quantified problem statement with sanity-checked revenue-at-risk
-- [x] Stakeholder map including predicted stakeholder tensions
-- [x] Strategic objectives with baselines
-- [x] Locked decisions D1–D3 with rationale, trade-offs and rejected alternatives
-- [x] Scope boundaries and assumptions
-
-**Next:** Phase 2 translates these objectives into testable business and functional requirements.
+**Cost accepted:** roughly double the analytical work, and every metric needs
